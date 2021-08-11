@@ -5,7 +5,6 @@ Created on Mon Jul 24 00:40:08 2017
 @author: Gio
 """
 
-
 import cv2
 
 
@@ -33,7 +32,7 @@ while(True):
     
     rMax = cv2.getTrackbarPos('RMax','slider')
     rMin = cv2.getTrackbarPos('RMin','slider')
-    print(r)
+    
     rngMin = (50,200,rMin)
     rngMax = (100,255,rMax)
     
